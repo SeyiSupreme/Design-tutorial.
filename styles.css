@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #99CCFF;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+.container,
+.start {
+    display: inline-block;
+}
+
+.container {
+    margin: auto;
+    height: 380px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 80px;
+
+}
+
+.start {
+    height: 120px;
+    padding: 10px;
+}
+
+img {
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 10px;
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+
+}
+
+.address {
+    color: grey;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: -15px;
+}
